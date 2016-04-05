@@ -1,1 +1,13 @@
 # stock-price
+
+This module will take an array of stock prices in chronological order and return the greatest profit that could be made by buying and selling at the right time
+
+# usage
+
+Here is an example of how to use the [stock-price](stock-price.js) module:
+
+    var getMaxProfit = require('./stock-price');
+    
+    var stockPricesYesterday = [10, 7, 5, 8, 11, 9];
+    var result = getMaxProfit(stockPricesYesterday);
+    // result will be 6
