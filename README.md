@@ -11,3 +11,7 @@ Here is an example of how to use the [stock-price](stock-price.js) module:
     var stockPricesYesterday = [10, 7, 5, 8, 11, 9];
     var result = getMaxProfit(stockPricesYesterday);
     // result will be 6
+
+The [index.js](index.js) module exists to try out the [stock-price](stock-price.js) module. This can be run with the following:
+
+    npm start <first number> <second number> ...
