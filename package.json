@@ -1,0 +1,20 @@
+{
+  "name": "stock-price",
+  "version": "1.0.0",
+  "description": "This module will take an array of stock prices in chronological order and return the greatest profit that could be made by buying and selling at the right time",
+  "main": "stock-price.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjriel/stock-price.git"
+  },
+  "author": "Rene-Jacques Riel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjriel/stock-price/issues"
+  },
+  "homepage": "https://github.com/rjriel/stock-price#readme",
+  "devDependencies": {}
+}
